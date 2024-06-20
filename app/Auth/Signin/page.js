@@ -7,7 +7,7 @@ import { FaEnvelope, FaLock } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
 import { FaFacebook, FaTwitter } from "react-icons/fa";
 import { useRouter } from "next/navigation";
-function page() {
+function Page() {
   const router = useRouter();
   return (
     <div className="flex w-full ">
@@ -85,4 +85,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

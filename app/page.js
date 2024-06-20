@@ -17,7 +17,7 @@ export default function Home() {
         className="w-full lg:h-[60dvh] items-center flex flex-col lg:flex-row-reverse lg:justify-center lg:gap-10 xl:gap-40"
       >
         <div className="border-b-2 border-blue-500">
-          <Image src={"/images/doctorsite.png"} width={350} height={120} />
+          <Image src={"/images/doctorsite.png"} width={350} height={120} alt="doctor"/>
         </div>
 
         <div className="p-2  w-11/12 md:w-10/12  lg:w-[500px] flex items-center flex-col space-y-4 lg:items-start">
@@ -26,7 +26,7 @@ export default function Home() {
           </h1>
           <p className="text-center lg:text-left text-gray-500">
             Are you ready to take the first step towards a brighter, healthier
-            you? Your journey starts with just one appointment. Whether it's for
+            you? Your journey starts with just one appointment. Whether it&apos;s for
             a health check-up, wellness consultation, or any other service,
             making that appointment is your gateway to a better future.
           </p>
@@ -133,7 +133,7 @@ export default function Home() {
               className="w-80 h-full p-2 rounded bg-white flex flex-col items-center border"
               key={index}
             >
-              <img src={value.img} className="w-full h-52" />
+              <img src={value.img} className="w-full h-52" alt="image"/>
               <p className="font-semibold">{value.name}</p>
               <p className="font-thin text-blue-500">{value.specialization}</p>
               <p className="text-xs text-center text-gray-500">{value.about}</p>
@@ -193,7 +193,7 @@ export default function Home() {
         <div>
           <h2 className="text-center text-3xl font-extrabold text-gray-900">Contact Us</h2>
           <p className="mt-2 text-center text-sm text-gray-600">
-            We'd love to hear from you! Please fill out the form below.
+            We&apos;d love to hear from you! Please fill out the form below.
           </p>
         </div>
         <form className="mt-8 space-y-6" action="#" method="POST">
