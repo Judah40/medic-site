@@ -21,12 +21,19 @@ const Header = () => {
         <div className="text-2xl font-bold flex items-center text-gray-500">
           <FaHospitalUser className="text-blue-500 text-4xl" /> Vh
         </div>
-        <nav className="hidden md:flex space-x-6 md:justify-end">
+        <nav className="hidden md:flex space-x-6 md:justify-end items-center">
           <a href="/" className="hover:text-gray-300">
             Home
           </a>
           <div className="relative group">
-            <button className="hover:text-gray-300">Service Offered</button>
+            <button
+              onClick={() => {
+                router.push("/Pages/Service");
+              }}
+              className="hover:text-gray-300"
+            >
+              Service Offered
+            </button>
             <div className="absolute left-0 mt-2 w-48 bg-white text-blue-600 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200">
               <a
                 href="#consultation"
@@ -49,7 +56,14 @@ const Header = () => {
             </div>
           </div>
           <div className="relative group">
-            <button className="hover:text-gray-300">Hospital</button>
+            <button
+              onClick={() => {
+                router.push("/Pages/Hospital");
+              }}
+              className="hover:text-gray-300"
+            >
+              Hospital
+            </button>
             <div className="absolute left-0 mt-2 w-48 bg-white text-blue-600 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200">
               <a href="#name" className="block px-4 py-2 hover:bg-blue-100">
                 Name
@@ -99,17 +113,15 @@ const Header = () => {
       {isOpen && (
         <div className="md:hidden">
           <nav className="flex flex-col  space-y-4 p-5 ">
-            <a
-              href="#home"
-              className="hover:text-gray-300"
-              onClick={toggleMenu}
-            >
+            <a href="/" className="hover:text-gray-300" onClick={toggleMenu}>
               Home
             </a>
             <div className="relative">
               <button
                 className="hover:text-gray-300"
-                onClick={() => setIsOpen(!isOpen)}
+                onClick={() => {
+                  router.push("/Pages/Service");
+                }}
               >
                 Service Offered
               </button>
@@ -133,7 +145,7 @@ const Header = () => {
                   Appointment
                 </a>
                 <a
-                  href="#emergency"
+                  href="/About"
                   className="block px-4 py-2 hover:bg-blue-100"
                   onClick={toggleMenu}
                 >
@@ -144,7 +156,9 @@ const Header = () => {
             <div className="relative">
               <button
                 className="hover:text-gray-300"
-                onClick={() => setIsOpen(!isOpen)}
+                onClick={() => {
+                  router.push("/Pages/Hospital");
+                }}
               >
                 Hospital
               </button>
@@ -179,8 +193,9 @@ const Header = () => {
             <div className="relative">
               <button
                 className="hover:text-gray-300"
-                onClick={() => setIsOpen(!isOpen)}
-              >
+                onClick={() => {
+                  router.push("/Pages/About");
+                }}              >
                 About Us
               </button>
               <div

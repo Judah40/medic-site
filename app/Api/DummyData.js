@@ -81,3 +81,52 @@ export const doctors = [
     img: "/doctors/doc3.jpg",
   },
 ];
+
+export const medicalfields=[
+  {
+    name:"Cardiology",
+  },
+  {
+    name:"neurology"
+  },
+  {
+    name:"Dermatology"
+  },
+  {
+    name:"Dentist"
+  },
+  {
+    name:"Gynecology"
+  },
+  {
+    name:"Ophthalmology"
+  },
+  {
+    name:"padiatrics"
+  },
+  {
+    name:"Psychiatry"
+  },
+  {
+    name:"Radiology"
+  },
+  {
+    name:"Urology"
+  }
+]
+
+
+export const supscription=[
+  {
+    duration:"1 Month",
+    price:"Le15"
+  },
+  {
+    duration:"6 Month",
+    price:"Le90"
+  },
+  {
+    duration:"12 Month",
+    price:"Le180"
+  },
+]

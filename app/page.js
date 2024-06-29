@@ -138,9 +138,9 @@ export default function Home() {
               <p className="font-thin text-blue-500">{value.specialization}</p>
               <p className="text-xs text-center text-gray-500">{value.about}</p>
               <div className="w-full flex justify-center my-3">
-                <button className="p-2 text-white text-sm rounded bg-blue-700">
+                <Link href={"/Pages/Bookj"} className="p-2 text-white text-sm rounded bg-blue-700">
                   Make Appointment
-                </button>
+                </Link>
               </div>
             </div>
           ))}
@@ -177,7 +177,7 @@ export default function Home() {
               </p>
               <div className="w-full flex p-1 flex-1 items-end justify-end">
                 <Link
-                  href={""}
+                  href={"/Pages/Book"}
                   className="p-1 rounded items-center flex justify-center w-32 bg-blue-500"
                 >
                   <p className="text-sm text-white">Book Now -{">"}</p>
