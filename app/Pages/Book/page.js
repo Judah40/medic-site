@@ -6,7 +6,7 @@ import { FaPhone, FaBriefcaseMedical } from "react-icons/fa6";
 import { medicalfields, supscription } from "@/app/Api/DummyData";
 import Image from "next/image";
 
-const page = () => {
+const Page = () => {
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -224,7 +224,7 @@ const page = () => {
           <p className="text-lg text-blue-500">connaught Hospital</p>
           <p className="text-gray-500 font-light text-center lg:text-left">
             Connaught Hospital is the largest government hospital in Sierra
-            Leone. It is the country's main referral hospital for complex
+            Leone. It is the country`&apos;`s main referral hospital for complex
             surgical and medical cases. It is also part of the University of
             Sierra Leone Teaching Hospitals Complex. As such, its main mission
             consists of medical care, training and research. Connaught Hospital
@@ -319,4 +319,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
