@@ -195,10 +195,10 @@ const Page = () => {
                   Our Schedules
                 </p>
                 <p className="text-xs text-white font-light lg:text-base">
-                  Infant:Mon - Fri
+                  Infant:Mon - Fri, 7:00am - 6:00pm
                 </p>
                 <p className="text-xs text-white font-light lg:text-base">
-                  Adult:Mon - Wed
+                  Adult:Mon - Wed,  9:00am - 6:00pm
                 </p>
               </div>
             </div>
