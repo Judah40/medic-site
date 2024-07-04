@@ -6,7 +6,7 @@ const page = () => {
     <div className="gap-8 flex flex-col">
       <div
         style={{
-          backgroundImage: `url("/backgrounds/background2.jpg")`,
+          backgroundImage: `url("backgrounds/background2.jpg")`,
           backgroundPosition: "center",
           backgroundSize: "cover",
         }}
@@ -39,7 +39,7 @@ const page = () => {
         </div>
 
         <div className="flex w-full p-4 justify-center">
-          <Image src={"/images/pic5.jpg"} alt="pic5" width={500} height={100} />
+          <Image src={"images/pic5.jpg"} alt="pic5" width={500} height={100} />
         </div>
       </div>
 
@@ -61,7 +61,7 @@ const page = () => {
         </div>
 
         <div className="flex w-full p-4 justify-center">
-          <Image src={"/images/pic6.jpg"} alt="pic6" width={500} height={100} />
+          <Image src={"images/pic6.jpg"} alt="pic6" width={500} height={100} />
         </div>
       </div>
 
@@ -82,7 +82,7 @@ const page = () => {
           </div>
   
           <div className="flex w-full p-4 justify-center">
-            <Image src={"/images/pic7.jpg"} alt="pic7" width={500} height={100} />
+            <Image src={"images/pic7.jpg"} alt="pic7" width={500} height={100} />
           </div>
         </div>
     </div>
