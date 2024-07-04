@@ -19,7 +19,7 @@ const Header = () => {
     <header className=" text-black shadow-lg">
       <div className="container mx-auto flex justify-between items-center p-5">
         <div className="text-2xl font-bold flex items-center text-gray-500">
-          <FaHospitalUser className="text-blue-500 text-4xl" /> OneCornerHealth
+          <FaHospitalUser className="text-blue-500 text-4xl" /> WanHealthCorner
         </div>
         <nav className="hidden md:flex space-x-6 md:justify-end items-center">
           <a href="/" className="hover:text-gray-300">
