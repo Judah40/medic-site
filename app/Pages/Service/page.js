@@ -6,7 +6,7 @@ const page = () => {
       <div className="bg-gray-100 p-6">
         <header
           style={{
-            backgroundImage: `url('./backgrounds/service.jpg')`,
+            backgroundImage: `url('backgrounds/service.jpg')`,
             backgroundPosition: "center",
             backgroundSize: "cover",
           }}
@@ -32,7 +32,7 @@ const page = () => {
             best possible care.
           </p>
           <img
-            src="./backgrounds/general.jpg"
+            src="backgrounds/general.jpg"
             alt="Hospital"
             className="mt-4 w-full rounded shadow"
           />
@@ -44,7 +44,7 @@ const page = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-4">
             <div className="p-4 bg-white rounded shadow">
               <img
-                src="./backgrounds/heart.jpg"
+                src="backgrounds/heart.jpg"
                 alt="Cardiology"
                 className="w-full h-60 rounded"
               />
@@ -59,7 +59,7 @@ const page = () => {
             </div>
             <div className="p-4 bg-white rounded shadow">
               <img
-                src="./backgrounds/neuro.jpg"
+                src="backgrounds/neuro.jpg"
                 alt="Neurology"
                 className="w-full h-60 rounded"
               />
@@ -73,7 +73,7 @@ const page = () => {
             </div>
             <div className="p-4 bg-white rounded shadow">
               <img
-                src="./backgrounds/ortho.jpg"
+                src="backgrounds/ortho.jpg"
                 alt="Orthopedics"
                 className="w-full h-60 rounded"
               />
@@ -97,7 +97,7 @@ const page = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-4">
             <div className="p-4 bg-white rounded shadow">
               <img
-                src="./backgrounds/emergency.jpg"
+                src="backgrounds/emergency.jpg"
                 alt="Emergency Care"
                 className="w-full rounded"
               />
@@ -111,7 +111,7 @@ const page = () => {
             </div>
             <div className="p-4 bg-white rounded shadow">
               <img
-                src="./backgrounds/maternity.jpg"
+                src="backgrounds/maternity.jpg"
                 alt="Maternity Services"
                 className="w-full h-60 rounded"
               />
@@ -125,7 +125,7 @@ const page = () => {
             </div>
             <div className="p-4 bg-white rounded shadow">
               <img
-                src="./backgrounds/pediatric.jpg"
+                src="backgrounds/pediatric.jpg"
                 alt="Pediatric Care"
                 className="w-full h-60 rounded"
               />
@@ -149,7 +149,7 @@ const page = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-4">
             <div className="p-4 bg-white rounded shadow">
               <img
-                src="./backgrounds/radiology.jpg"
+                src="backgrounds/radiology.jpg"
                 alt="Radiology"
                 className="w-full h-60 rounded"
               />
@@ -163,7 +163,7 @@ const page = () => {
             </div>
             <div className="p-4 bg-white rounded shadow">
               <img
-                src="./backgrounds/lab.jpg"
+                src="backgrounds/lab.jpg"
                 alt="Laboratory Services"
                 className="w-full h-60 rounded"
               />
@@ -177,7 +177,7 @@ const page = () => {
             </div>
             <div className="p-4 bg-white rounded shadow">
               <img
-                src="./backgrounds/rehab.jpg"
+                src="backgrounds/rehab.jpg"
                 alt="Rehabilitation"
                 className="w-full h-60 rounded"
               />
