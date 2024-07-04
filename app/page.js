@@ -17,7 +17,7 @@ export default function Home() {
         className="w-full lg:h-[60dvh] items-center flex flex-col lg:flex-row-reverse lg:justify-center lg:gap-10 xl:gap-40"
       >
         <div className="border-b-2 border-blue-500">
-          <Image src={"images/doctorsite.png"} width={350} height={120} alt="doctor"/>
+          <Image src={"images/doctorsite.png"} width={300} height={120} alt="doctor"/>
         </div>
 
         <div className="p-2  w-11/12 md:w-10/12  lg:w-[500px] flex items-center flex-col space-y-4 lg:items-start">
